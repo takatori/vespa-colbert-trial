@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "vespa-colbert-trial"
+version = "0.1.0"
+description = ""
+authors = ["Satoshi Takatori"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyvespa = "^0.45.0"
