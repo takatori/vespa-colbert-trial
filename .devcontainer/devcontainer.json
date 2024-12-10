@@ -52,7 +52,9 @@
         "letrieu.expand-region",
         "kahole.magit",
         "ms-azuretools.vscode-docker",
-        "ms-toolsai.jupyter"
+        "ms-toolsai.jupyter",
+        "vespaai.vespa-language-support",
+        "GitHub.copilot"
       ]
     }
   }

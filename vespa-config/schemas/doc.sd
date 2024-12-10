@@ -1,0 +1,20 @@
+schema doc {
+
+    document doc {
+        
+        field id type string {
+            indexing: summary
+        }
+
+        field passage type string {
+            indexing: index | summary
+        }
+
+        field colbert type tensor<int8>(token{}, v[16]) {
+            indexing: attribute | summary | index
+            attribute {
+                distance-metric: hamming
+            }
+        }
+    }
+}
